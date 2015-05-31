@@ -217,36 +217,28 @@ h5 {
   color: #000;
 }
 .container {
-  max-width: 630px;
+  max-width: 1000px;
   margin: auto;
   padding: 0 20px;
 }
-header.site-header {
+header.container {
   margin: 0px auto 0 auto;
   overflow: hidden;
 }
 @media (min-width: 992px) {
-  header.site-header {
+  header.container {
     margin: 80px auto 20px auto;
   }
 }
-header.site-header h1 {
+header.container h1 {
   float: left;
-  margin-bottom: 20px;
-}
-header.site-header h1 a {
-  color: #000;
-}
-header.site-header h1 {
   margin: 0 0 20px 0;
   display: block;
   font-size: 15px;
 }
-header.site-header h1 a {
+header.container h1 a {
+  color: #000;
   text-decoration: none;
-}
-header.site-header .site-branding {
-  overflow: hidden;
 }
 .links {
   margin-top: 30px;
@@ -266,38 +258,29 @@ header.site-header .site-branding {
 }
 .bio {
   margin-bottom: 100px;
+  max-width: 540px
 }
 @media (min-width: 992px) {
   .bio {
     margin-bottom: 0;
   }
 }
-.bio p {
-  max-width: 540px;
-}
 .bio p:last-child {
   margin-bottom: 0;
 }
-.container {
-  max-width: 1000px;
-}
-.site-footer {
-  display: none;
-}
-
 img {
   max-width: 100%;
 }
-footer.quote {
+footer.container {
   margin-top: 100px;
   font-style: italic;
   color: #999;
 }
-footer.quote .line {
+footer.container .line {
   height: 4px;
   background: #eee;
-  max-width: 80px;
+  max-width: 250px;
   height: 2px;
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }

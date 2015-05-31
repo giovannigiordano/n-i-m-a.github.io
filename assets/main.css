@@ -1,0 +1,303 @@
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  color: #555;
+  font-size: 14px;
+  padding: 100px 0;
+  margin: 0;
+}
+body.loaded {
+  opacity: 1;
+}
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+.single article pre {
+  background: #f1f1f1;
+  font-size: 12px;
+  padding: 20px;
+  line-height: 1.8;
+}
+p,
+li {
+  line-height: 2;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #000;
+}
+.container {
+  max-width: 630px;
+  margin: auto;
+  padding: 0 20px;
+}
+header.site-header {
+  margin: 0px auto 0 auto;
+  overflow: hidden;
+}
+@media (min-width: 992px) {
+  header.site-header {
+    margin: 80px auto 20px auto;
+  }
+}
+header.site-header h1 {
+  float: left;
+  margin-bottom: 20px;
+}
+header.site-header h1 a {
+  color: #000;
+}
+header.site-header h1 {
+  margin: 0 0 20px 0;
+  display: block;
+  font-size: 15px;
+}
+header.site-header h1 a {
+  text-decoration: none;
+}
+header.site-header .site-branding {
+  overflow: hidden;
+}
+.links {
+  margin-top: 30px;
+}
+.links a {
+  background: #f2f3f4;
+  width: 40px;
+  height: 40px;
+  color: #bdc3c7;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 4px;
+}
+.links a:hover {
+  color: #596369;
+}
+.bio {
+  margin-bottom: 100px;
+}
+@media (min-width: 992px) {
+  .bio {
+    margin-bottom: 0;
+  }
+}
+.bio p {
+  max-width: 540px;
+}
+.bio p:last-child {
+  margin-bottom: 0;
+}
+.container {
+  max-width: 1000px;
+}
+.site-footer {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+}
+footer.quote {
+  margin-top: 100px;
+  font-style: italic;
+  color: #999;
+}
+footer.quote .line {
+  height: 4px;
+  background: #eee;
+  max-width: 80px;
+  height: 2px;
+  display: block;
+  margin-bottom: 30px;
+}

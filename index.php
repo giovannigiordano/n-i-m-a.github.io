@@ -10,10 +10,11 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./assets/main.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.ico" />
   </head>
   <body>
     <header class="container">
-      <h1><a href="http://nima.pro/">Nima Amini - IT Project Manager &amp; Consultant</a></h1>
+      <h1><a href="http://nima.pro/" title="Milan based IT Project Manager &amp; Consultant, PHP Developer &amp; SEO Specialist">Nima Amini - IT Project Manager &amp; Consultant</a></h1>
     </header>
     <main class="container">
       <article class="bio">
@@ -39,25 +40,36 @@
           //-->
           //]]>
           </script>
-          <a href="https://it.linkedin.com/in/nimaamini" target="_blank"><i class="fa fa-linkedin"></i></a>
-          <a href="https://github.com/n-i-m-a" target="_blank"><i class="fa fa-github"></i></a>
-          <a href="https://instagram.com/nima_amini/" target="_blank"><i class="fa fa-instagram"></i></a>
-          <a href="https://twitter.com/nima_amini" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://it.linkedin.com/in/nimaamini" target="_blank" title="Nima Amini on Linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="https://github.com/n-i-m-a" target="_blank" title="Nima Amini on Github"><i class="fa fa-github"></i></a>
+          <a href="https://instagram.com/nima_amini/" target="_blank" title="Nima Amini on Instagram"><i class="fa fa-instagram"></i></a>
+          <a href="https://twitter.com/nima_amini" target="_blank" title="Nima Amini on Twitter"><i class="fa fa-twitter"></i></a>
         </p>
       </article>
+      <aside class="sections">
+        <section>
+          <p><em>Latest Projects: </em> <a href="https://talebini.org" title="Design and development of a Persian astrology site with a custom CMS, backend APIs, WordPress plugin to import daily feeds, SEO &amp; etc." target="_blank">Talebini.org</a>, <a href="http://subscribe-renew.com" title="Opencart based multisite ecommerce platform with heavy modifications + some performance boost." rel="nofollow" target="_blank">Subscribe-Renew.com</a>, <a href="http://alumni24.ilsole24ore.com/" title="Custom CMS solution for the alumni network of one of the best business schools in Italy." rel="nofollow" target="_blank">24ore Alumni</a>, <a href="https://www.italist.com/en" title="Maintenance &amp; development on a custom built ecommerce platform." rel="nofollow" target="_blank">Italist.com</a>.</p>
+        </section>
+        <section>
+          <p><em>Latest Reads: </em> <a href="http://shop.oreilly.com/product/9780596007126.do" title="Head First Design Patterns By Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra" rel="nofollow" target="_blank">Head First Design Patterns</a>, <a href="http://shop.oreilly.com/product/0636920025849.do" title="Learning Agile: Understanding Scrum, XP, Lean, and Kanban By Andrew Stellman, Jennifer Greene" rel="nofollow" target="_blank">Learning Agile</a>, <a href="http://shop.oreilly.com/product/0636920028062.do" title="Learning PHP Design Patterns By William Sanders" rel="nofollow" target="_blank">Learning PHP Design Patterns</a>.</p>
+        </section>
+        <section>
+          <p><em>Interesting Stuff: </em> <a href="https://ngrok.com" title="Secure tunnels to localhost" rel="nofollow" target="_blank">ngrok</a>, <a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/" title="Cognitive computing" rel="nofollow" target="_blank">IBM Watson</a>, <a href="http://d3js.org/" title="Data-Driven Documents" rel="nofollow" target="_blank">d3js</a>.</p>
+        </section>
+      </aside>
     </main>
     <footer class="container">
       <span class="line"></span>
       <p>"Speech is silver and silence is golden."</p>
     </footer>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/tooltipster/3.0.5/js/jquery.tooltipster.min.js"></script>
 	<script>
+  $(function() {$('section a').tooltipster();});
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-21255578-2', 'auto');
   ga('send', 'pageview');
   </script>

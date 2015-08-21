@@ -12,15 +12,15 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="favicon.ico" />
   </head>
-  <body>
+  <body itemscope itemtype="http://schema.org/Person">
     <header class="container">
-      <h1><a href="http://nima.pro/" title="Milan based IT Project Manager &amp; Consultant, PHP Developer &amp; SEO Specialist">Nima Amini - IT Project Manager &amp; Consultant</a></h1>
+      <h1><a href="http://nima.pro/" title="Milan based IT Project Manager &amp; Consultant, PHP Developer &amp; SEO Specialist"><span itemprop="name">Nima Amini</span> - <span itemprop="jobTitle">IT Project Manager &amp; Consultant</span></a></h1>
     </header>
     <main class="container">
-      <article class="bio">
-        <p>I'm an IT Project Manager &amp; Consultant, PHP Developer &amp; SEO Specialist based in Milan <em>(Italy)</em>, with a passion for solving problems.</p>
-        <p>Over the past <?=(int)date('Y')-2002?> years, I have helped hundreds of satisfied clients &amp; companies to solve problems and to build technologies, targeting &amp; optimizing platforms with up-to 3 million happy users.</p>
-        <p>I am currently self-employed(/ a freelancer) and other than accepting the usual project-based work, am open to reasonable partnership/employment offers from Italian/Swiss-based companies &amp; startups.</p>
+      <article class="bio" itemprop="description">
+        <p>I'm an IT Project Manager &amp; Consultant, PHP Developer &amp; SEO Specialist based in <span itemprop="address">Milan <em>(Italy)</em></span>, with a passion for solving problems.</p>
+        <p itemprop="makesOffer">Over the past <?=(int)date('Y')-2002?> years, I have helped hundreds of satisfied clients &amp; companies to solve problems and to build technologies, targeting &amp; optimizing platforms with up-to 3 million happy users.</p>
+        <p itemprop="seeks">I am currently self-employed(/ a freelancer) and other than accepting the usual project-based work, am open to reasonable partnership/employment offers from Italian/Swiss-based companies &amp; startups.</p>
         <p class="links">
           <script type="text/javascript">
           //<![CDATA[

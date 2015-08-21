@@ -9,7 +9,7 @@
     <meta name="description" content="I'm an IT Project Manager &amp; Consultant, PHP Developer &amp; SEO Specialist based in Milan (Italy), with a passion for solving problems.">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./assets/main.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="favicon.ico" />
   </head>
   <body itemscope itemtype="http://schema.org/Person">

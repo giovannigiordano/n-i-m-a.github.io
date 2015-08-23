@@ -186,7 +186,6 @@ body {
   font-size: 14px;
   padding: 70px 0;
   margin: 0;
-  display: none;
 }
 body.loaded {
   opacity: 1;
@@ -225,6 +224,7 @@ h5 {
 header.container {
   margin: 0px auto 0 auto;
   overflow: hidden;
+  display: none;
 }
 @media (min-width: 992px) {
   header.container {
@@ -258,7 +258,7 @@ header.container h1 a {
   color: #596369;
 }
 .bio {
-  display: block;
+  display: none;
   max-width: 540px;
 }
 .bio p {
@@ -270,6 +270,7 @@ header.container h1 a {
 aside.sections {
   margin-top: 30px;
   font-size: 13px;
+  display: none;
 }
 aside.sections p {
   margin: 0;
@@ -284,6 +285,7 @@ footer.container {
   margin-top: 40px;
   font-style: italic;
   color: #999;
+  display:none;
 }
 footer.container .line {
   height: 4px;

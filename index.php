@@ -64,7 +64,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/tooltipster/3.0.5/js/jquery.tooltipster.min.js"></script>
 	<script>
-  $(function() {$('body').delay(200).fadeIn(600);$('section a').tooltipster();});
+  $(function() {$('header').delay(200).fadeIn(600);$('.bio').delay(800).fadeIn(600);$('.sections').delay(1400).fadeIn(600);$('footer').delay(2000).fadeIn(600);$('section a').tooltipster();});
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

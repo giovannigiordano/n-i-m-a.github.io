@@ -7,7 +7,7 @@
     <title>Nima Amini - IT Project Manager &amp; Consultant, PHP Developer &amp; SEO Specialist</title>
     <meta name="description" content="I'm an IT Project Manager &amp; Consultant, PHP Developer &amp; SEO Specialist based in Milan (Italy), with a passion for solving problems.">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="./assets/main.css?v=1.1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="favicon.ico" />
   </head>
@@ -48,6 +48,9 @@
       <aside class="sections">
         <section>
           <p><em>Latest Projects: </em> <a href="https://talebini.org" title="Design and development of a Persian astrology site with a custom CMS, backend APIs, WordPress plugin to import daily feeds, SEO &amp; etc." target="_blank">Talebini.org</a>, <a href="http://subscribe-renew.com" title="Opencart based multisite ecommerce platform with heavy modifications + some performance boost." rel="nofollow" target="_blank">Subscribe-Renew.com</a>, <a href="http://alumni24.ilsole24ore.com/" title="Custom CMS solution for the alumni network of one of the best business schools in Italy." rel="nofollow" target="_blank">24ore Alumni</a>, <a href="https://www.italist.com/en" title="Maintenance &amp; development on a custom built ecommerce platform." rel="nofollow" target="_blank">Italist.com</a>.</p>
+        </section>
+        <section>
+          <p><em>Latest Courses/Workshops: </em> <a href="https://www.edx.org/course/user-innovation-path-entrepreneurship-mitx-uinov8x" title="MITx: uINOV8x USER INNOVATION: A Path To Entrepreneurship" rel="nofollow" target="_blank">USER INNOVATION: A Path To Entrepreneurship</a>, <a href="http://www.salesforce.com/it/events/" title="Salesforce Essentials Milan, May 26th" rel="nofollow" target="_blank">Salesforce Essentials Milan</a>.</p>
         </section>
         <section>
           <p><em>Latest Reads: </em> <a href="http://shop.oreilly.com/product/0636920034148.do" title="Mitigate risk within complex naming environments By Mark Jeftovic" rel="nofollow" target="_blank">Managing Mission-Critical Domains and DNS</a>, <a href="http://shop.oreilly.com/product/9780596007126.do" title="Head First Design Patterns By Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra" rel="nofollow" target="_blank">Head First Design Patterns</a>, <a href="http://shop.oreilly.com/product/0636920025849.do" title="Learning Agile: Understanding Scrum, XP, Lean, and Kanban By Andrew Stellman, Jennifer Greene" rel="nofollow" target="_blank">Learning Agile</a>, <a href="http://shop.oreilly.com/product/0636920028062.do" title="Learning PHP Design Patterns By William Sanders" rel="nofollow" target="_blank">Learning PHP Design Patterns</a>.</p>

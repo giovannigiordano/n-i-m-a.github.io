@@ -267,7 +267,7 @@ header.container h1 a {
 .bio p:last-child {
   margin-bottom: 0;
 }
-aside.sections {
+aside.sections, p.sections {
   margin-top: 30px;
   font-size: 13px;
   display: none;

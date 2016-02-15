@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nima Amini - Sleeping or awake?</title>
+    <meta name="description" content="A mini personal project to show whether Nima Amini is asleep or not, including sleep history of the past 7 days.">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,400italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/main.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <header class="container">
+      <h1><a href="//nima.pro/asleep-or-awake.html" title="Milan based IT Project Manager &amp; Consultant, PHP Developer &amp; SEO Specialist">Sleep Monitoring Records for Nima Amini</a></h1>
+    </header>
+    <main class="container">
+      <article class="bio">
+        <h2>I am currently <span class="loading"><em>(<i class="fa fa-refresh fa-spin"></i> loading status...)</em></span><span class="status"></span></h2>
+      </article>
+      <aside class="sections">
+        <p>&nbsp;</p>
+        <h3>Last 7 days of activity:</h3>
+        <p class="loading"><i class="fa fa-refresh fa-spin"></i> Loading records...</p>
+      </aside>
+    </main>
+    <footer class="container">
+      <p><a href="//nima.pro/" title="Milan based IT Project Manager &amp; Consultant, PHP Developer &amp; SEO Specialist"><i class="fa fa-angle-left"></i> ... click here to go back to the homepage</a>.</p>
+      <span class="line"></span>
+      <p>* All times are in Europe/Rome time zone.</p>
+    </footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/tooltipster/3.0.5/js/jquery.tooltipster.min.js"></script>
+  <script>
+    $(function(){$('header').delay(200).fadeIn(600);$('.bio').delay(800).fadeIn(600);$('.sections').delay(1400).fadeIn(600);$('footer').delay(2000).fadeIn(600);});$.ajax({url:'http://digipars.com/productivity/?a=sleephistory&callback=?',type:'GET',jsonpCallback:'nimasSleepRecord',dataType:'jsonp',success:function(response){$('.loading').remove();var i=0;$.each(response,function(key,value){var sleep=(value.status=='Sleep');if(i== 0){$('.status').append('<b><i class="fa fa-'+(sleep?'bed':'child')+' fa-2x"></i>'+(sleep?'ASLEEP':'AWAKE')+'</b>.<br><small><em>(Last update: '+value.updated+'<sup>*</sup>)</em></small>');}$('.sections').append('<section><p>- <i class="fa fa-'+(sleep?'bed':'child')+'"></i> '+(sleep?'SLEPT at ':'WOKE UP at ')+value.updated+'</p></section>');i++;});}});
+  </script>
+  </body>
+</html>

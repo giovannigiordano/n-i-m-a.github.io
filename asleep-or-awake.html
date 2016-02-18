@@ -32,7 +32,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/tooltipster/3.0.5/js/jquery.tooltipster.min.js"></script>
   <script>
-    $(function(){$('header, .bio, .sections, footer').delay(200).fadeIn(600);$.ajax({url:'http://digipars.com/productivity/?a=sleephistory&callback=?',type:'GET',jsonpCallback:'nimasSleepRecord',dataType:'jsonp',success:function(response){$('.loading').remove();var i=0;$.each(response,function(key,value){var sleep=(value.status=='Sleep');if(i==0){$('.status').append('<b><i class="fa fa-'+(sleep?'bed':'child')+' fa-2x"></i> '+(sleep?'ASLEEP':'AWAKE')+'</b>.<br><small><em>(Last update: '+value.updated+'<sup>*</sup>)</em></small>');}$('.sections').append('<section><p'+(!(i%2)?' class="shaded"':'')+'>- <i class="fa fa-'+(sleep?'bed':'child')+'"></i> '+(sleep?'SLEPT at ':'WOKE UP at ')+value.updated+'</p></section>');i++;});}});});
+    $(function(){$('header, .bio, .sections, footer').delay(200).fadeIn(600);$.ajax({url:'http://digipars.com/productivity/?a=sleephistory&callback=?',type:'GET',jsonpCallback:'nimasSleepRecord',dataType:'jsonp',success:function(response){$('.loading').remove();var i=0;$.each(response,function(key,value){var sleep=(value.status=='Sleep');if(i==0){$('.status').append('<b><i class="fa fa-'+(sleep?'bed':'child')+' fa-2x"></i> '+(sleep?'ASLEEP':'AWAKE')+'</b>.<br><small><em>(Last update: '+value.updated+'<sup>*</sup>)</em></small>');}$('.sections').append('<section><p'+(!(i%2)?' class="shaded"':'')+'>- <i class="fa fa-'+(sleep?'bed':'child')+'"></i> '+(sleep?'SLEPT at ':'WOKE UP at ')+value.updated+'</p></section>').hide().fadeIn('fast');i++;});}});});
   </script>
   </body>
 </html>
